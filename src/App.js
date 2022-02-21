@@ -2,6 +2,7 @@ import axios from 'axios';
 import { useState, useEffect } from 'react';
 import { POKEMON_URL, BASE_URL, POPULATE } from './utils/api';
 
+
 const App = () => {
   const [data, setData] = useState([]);
 
